@@ -1,0 +1,28 @@
+.cardWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+.message {
+  font-weight: bold;
+  font-size: 22px;
+  display: inline-block;
+}
+.svg {
+  display: block;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.loader {
+  padding: 0px;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
